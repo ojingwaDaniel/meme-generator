@@ -10,8 +10,8 @@ export default function Meme() {
   return (
     <main>
       <div  className="meme-form">
-        <input type="text" name="" id="" placeholder=" Top Text..." />
-        <input type="text" name="" id="" placeholder=" Botton Text..." />
+        {/* <input type="text" name="" id="" placeholder=" Top Text..." />
+        <input type="text" name="" id="" placeholder=" Botton Text..." /> */}
         <button type="button" onClick={getImageUrl}>Get a new meme image 🖼</button>
       </div>
     </main>
