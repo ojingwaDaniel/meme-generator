@@ -20,7 +20,7 @@ export default function Meme() {
 // state in react
  const result = React.useState("Yes");
  console.log(result);
- return (
+//  return (
    <div className="state">
      <h1 className="state--title">Is state important to know?</h1>
      {/* <div className="state--value">
